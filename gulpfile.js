@@ -23,6 +23,7 @@
     imagemin = require('gulp-imagemin'),
     pngquant = require('imagemin-pngquant'),
     fs = require('fs'),
+    stringify = require('stringify'),
     browserSync = require('browser-sync').create();
 
   var Paths = {
@@ -43,6 +44,7 @@
     //remove sourcemap for production
     var enableDebug = this.seq.slice(-1)[0] === 'production';
     return browserify({ entries: `./${Paths.src}/${Paths.srcJS}/app.js`, debug: !enableDebug })
+      .transform(stringify(['.hjs', '.html', '.hbs']))
       .transform('babelify', { presets: ['es2015'] })
       .bundle().on('error', function(err) {
         showError.apply(this, ['JS error', err])

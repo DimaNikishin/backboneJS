@@ -1,0 +1,7 @@
+<div class="title"><h3>Sidebar</h3></div>
+<div class="total-statistic"><h3>Total Persons: {{total}}</h3></div>
+<div class="additional-statistic">
+    {{#roles}}
+        <div class="properties" data-key={{key}} data-index="{{index}}"><a href="#">{{title}} : {{amount}}</a></div>
+    {{/roles}}
+</div>

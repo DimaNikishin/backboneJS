@@ -1,0 +1,119 @@
+body {
+  background-color: #FAF7FF;
+}
+
+.main-content {
+  margin-top: 50px;
+  box-shadow: 0 0 15px;
+  height: 400px;
+}
+
+.bigList {
+  height: auto;
+}
+
+.side-content {
+  margin-top: 50px;
+  box-shadow: 0 0 15px;
+  height: 400px;
+  text-align: center;
+
+  .title {
+    margin-top: 30px;
+  }
+
+  .total-statistic {
+    margin-top: 30px;
+  }
+
+  .additional-statistic {
+    margin-top: 30px;
+    text-align: left!important;
+    background-color: white;
+    border-radius: 5px;
+    padding:10px;
+
+    div{
+      border-bottom: 1px solid black;
+    }
+  }
+}
+
+.add-person-block {
+  margin-top: 30px;
+}
+
+.inline {
+  display: inline;
+  margin-right: 15px;
+}
+
+.add-button {
+  width: 150px;
+  border:none;
+  float: right;
+  background-color: #4CAF50;
+}
+
+.name-input {
+  height: 25px;
+  width: 375px;
+  background-color: white;
+  border-style: solid!important;
+  border-width: 0px 0px 1px 0px!important;
+  border-color: darked!important;
+  outline:0;
+}
+
+.properties {
+  p{
+    margin-bottom: 0!important;
+  }
+}
+
+.user-table {
+  margin-top: 30px;
+
+  table{
+    width: 100%;
+    text-align: left;
+    thead{
+      th {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px;
+      }
+    }
+    tbody{
+      tr:nth-child(even) {background-color: white}
+      td {
+        padding: 10px;
+
+      }
+    }
+  }
+}
+
+.with-input {
+  text-align: center!important;
+}
+
+.filter-block {
+  margin-top: 30px;
+
+  span{
+    margin-right: 20px;
+    text-decoration: none;
+    color: blue;
+  }
+
+  span.active {
+    color:black!important;
+    pointer-events: none;
+  }
+
+  span:hover {
+    color: black;
+  }
+
+}

@@ -1,0 +1,10 @@
+<h3>Add new person</h3>
+<div>
+    <form>
+        <div class="inline"><input type="text" placeholder="Name" class="name-input"></div>
+        {{#roles}}
+            <div class="inline"><input class="person-roles" type="checkbox" data-index="{{index}}" data-role="{{key}}">{{title}}</div>
+        {{/roles}}
+        <button class="add-button" type="submit">Add</button>
+    </form>
+</div>
