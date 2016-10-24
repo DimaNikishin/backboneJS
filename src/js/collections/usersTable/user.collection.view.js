@@ -20,12 +20,16 @@ var Users = Marionette.View.extend({
     'click @ui.deleteItem': 'delete:item'
   },
 
-  updatedModel(){
+  createUpdatedModelObj(){
     let updatedModel = {roles:[]};
     Array.from(this.ui.checkbox).forEach(checkbox =>{
       updatedModel.roles.push({key:$(checkbox).val(), value:$(checkbox).is(":checked")});
     });
-    this.model.set(updatedModel);
+    return updatedModel;
+  },
+
+  updatedModel(){
+    this.model.set(this.createUpdatedModelObj());
     this.triggerMethod("update:items");
   },
 
@@ -44,10 +48,6 @@ var UsersTable = Marionette.CollectionView.extend({
   childViewEvents: {
     'update:items': 'itemUpdated',
     'delete:item': 'deleteItem'
-  },
-
-  onSort(){
-    console.log(1);
   },
 
   itemUpdated(){

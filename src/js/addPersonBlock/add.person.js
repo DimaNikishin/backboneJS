@@ -17,14 +17,21 @@ const addPersonView = Marionette.View.extend({
     'submit @ui.submit': 'addPerson'
   },
 
-  addPerson(event) {
-    event.preventDefault();
+  createPersonObj(){
+
     let personObject = {roles:[]};
     personObject.name = this.ui.name.val();
     Array.from(this.ui.roles).forEach(roles =>{
       personObject.roles.push({key:$(roles).data('role'), value:$(roles).is(":checked")});
     });
-    this.collection.add(personObject);
+
+    return personObject;
+  },
+
+  addPerson(event) {
+    event.preventDefault();
+
+    this.collection.add(this.createPersonObj());
 
     this.model.get('roles').forEach((role,index)=>{
       if(role.active && !$(this.ui.roles[index]).prop('checked')){

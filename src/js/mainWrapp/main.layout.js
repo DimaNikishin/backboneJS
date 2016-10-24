@@ -31,33 +31,18 @@ const MainLayout = Marionette.View.extend({
     'remove:filter': 'removeFilter'
   },
 
-  itemAdded(){
+  createStatisticObj(){
     let updatedModelObject = {roles:[]};
     updatedModelObject.total = this.collection.length;
     this.model.get('roles').forEach((role,index,array)=>{
       updatedModelObject.roles.push({key: role.key, title: role.title, amount: 0, index: index, active: role.active});
       this.collection.models.forEach(model=>{
-          if( model.get('roles')[index].value){
-            updatedModelObject.roles[index].amount +=1;
-          }
+        if( model.get('roles')[index].value){
+          updatedModelObject.roles[index].amount +=1;
+        }
       })
     });
-    this.model.set(updatedModelObject);
-  },
-
-  setFilter(filter,index){
-    this.getChildView('userTable').getChildView('body').setFilter((child,i,array)=>{
-      return child.get('roles')[index].value;
-    });
-
-    this.updateFilter.call(this,index);
-    this.getChildView('addPeson').triggerMethod('set:acitve');
-  },
-
-  removeFilter(){
-    this.getChildView('userTable').getChildView('body').removeFilter();
-    this.updateFilter.call(this,undefined);
-    this.getChildView('addPeson').triggerMethod('set:acitve');
+    return updatedModelObject;
   },
 
   updateFilter(index){
@@ -69,6 +54,26 @@ const MainLayout = Marionette.View.extend({
       updatedModelRolesObject[index].active = true;
     }
     this.model.set('roles', updatedModelRolesObject);
+  },
+
+
+  itemAdded(){
+    this.model.set(this.createStatisticObj());
+  },
+
+  setFilter(filter,index){
+    this.getChildView('userTable').getChildView('body').setFilter((child,i,array)=>{
+      return child.get('roles')[index].value;
+    });
+
+    this.updateFilter(index);
+    this.getChildView('addPeson').triggerMethod('set:acitve');
+  },
+
+  removeFilter(){
+    this.getChildView('userTable').getChildView('body').removeFilter();
+    this.updateFilter();
+    this.getChildView('addPeson').triggerMethod('set:acitve');
   },
 
   onRender() {

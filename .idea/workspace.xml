@@ -2,30 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b24dbcb-5bfe-4c3f-b3e8-ad40cda9bcd2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/_base.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/scss/components/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/addPersonBlock/add.person.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/addPersonBlock/add.person.template.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/filterBlock/filter.block.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/filterBlock/filter.block.template.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/mainWrapp/main.layout.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/mainWrapp/main.layout.template.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/models/rolesModel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/sideContentBlock/side.content.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/sideContentBlock/side.content.template.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/collections/usersTable/user.collection.view.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/collections/usersTable/user.item.template.hbs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/userTableBlock/user.table.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/userTableBlock/user.table.template.hbs" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/js/modules/helpers.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/scss/components/_starter-box.scss" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/app.js" afterPath="$PROJECT_DIR$/src/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scss/style.scss" afterPath="$PROJECT_DIR$/src/scss/style.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/vendor_entries/vendor.js" afterPath="$PROJECT_DIR$/src/vendor_entries/vendor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/addPersonBlock/add.person.js" afterPath="$PROJECT_DIR$/src/js/addPersonBlock/add.person.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/mainWrapp/main.layout.js" afterPath="$PROJECT_DIR$/src/js/mainWrapp/main.layout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/collections/usersTable/user.collection.view.js" afterPath="$PROJECT_DIR$/src/js/collections/usersTable/user.collection.view.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="backbone_proj.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,8 +29,8 @@
       <file leaf-file-name="main.layout.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/mainWrapp/main.layout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+            <state vertical-scroll-proportion="3.2592592">
+              <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -99,8 +79,8 @@
       <file leaf-file-name="user.table.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/userTableBlock/user.table.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.7329545">
-              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+            <state vertical-scroll-proportion="-2.5227273">
+              <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -110,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/src/js/addPersonBlock/add.person.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="56" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="56" />
+              <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -130,7 +110,7 @@
         <entry file="file://$PROJECT_DIR$/src/js/collections/usersTable/user.collection.view.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+              <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -140,7 +120,7 @@
         <entry file="file://$PROJECT_DIR$/src/js/filterBlock/filter.block.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="3" selection-start-line="25" selection-start-column="2" selection-end-line="32" selection-end-column="3" />
+              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -187,13 +167,13 @@
         <option value="$PROJECT_DIR$/src/js/sideContentBlock/side.content.js" />
         <option value="$PROJECT_DIR$/src/js/filterBlock/filter.block.js" />
         <option value="$PROJECT_DIR$/src/js/addPersonBlock/add.person.template.hbs" />
-        <option value="$PROJECT_DIR$/src/js/mainWrapp/main.layout.js" />
-        <option value="$PROJECT_DIR$/src/js/addPersonBlock/add.person.js" />
         <option value="$PROJECT_DIR$/src/js/collections/usersTable/sortFunctions.js" />
-        <option value="$PROJECT_DIR$/src/js/collections/usersTable/user.collection.view.js" />
         <option value="$PROJECT_DIR$/src/js/app.js" />
         <option value="$PROJECT_DIR$/src/js/userTableBlock/user.table.template.hbs" />
         <option value="$PROJECT_DIR$/src/js/userTableBlock/user.table.js" />
+        <option value="$PROJECT_DIR$/src/js/addPersonBlock/add.person.js" />
+        <option value="$PROJECT_DIR$/src/js/collections/usersTable/user.collection.view.js" />
+        <option value="$PROJECT_DIR$/src/js/mainWrapp/main.layout.js" />
       </list>
     </option>
   </component>
@@ -935,50 +915,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/filterBlock/filter.block.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="3" selection-start-line="25" selection-start-column="2" selection-end-line="32" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/mainWrapp/main.layout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/models/rolesModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/addPersonBlock/add.person.template.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.125">
           <caret line="5" column="98" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="98" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/sideContentBlock/side.content.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="21" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/collections/usersTable/user.collection.view.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -1002,15 +942,55 @@
     <entry file="file://$PROJECT_DIR$/src/js/addPersonBlock/add.person.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="56" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="56" />
+          <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/collections/usersTable/user.collection.view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/filterBlock/filter.block.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/mainWrapp/main.layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.2592592">
+          <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/models/rolesModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/sideContentBlock/side.content.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="21" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/userTableBlock/user.table.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7329545">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        <state vertical-scroll-proportion="-2.5227273">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
           <folding />
         </state>
       </provider>
